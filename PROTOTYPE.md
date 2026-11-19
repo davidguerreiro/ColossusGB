@@ -6,9 +6,9 @@ Create one small, coherent, playable top-down adventure prototype for the **orig
 The list below is a **scope checklist**, not a claim that any tasks are complete. Mark boxes only after testing them.
 
 ## Phase 0 — Graphics tooling (current first priority)
-- [ ] Set up Python 3, Pillow, tests, and a cross-platform CLI.
-- [ ] Generate a basic 8×8 grass/path/wall tileset PNG from editable pixel definitions.
-- [ ] Validate dimensions, allowed colors, tile alignment, and tile uniqueness.
+- [x] Set up Python 3, Pillow, tests, and a cross-platform CLI (tested on Windows).
+- [x] Generate a basic 8×8 grass/path/wall tileset PNG from editable pixel definitions.
+- [x] Validate dimensions, allowed colors, tile alignment, and tile uniqueness.
 - [ ] Import the generated tileset into GB Scene Tiler and verify the tile grid and colors.
 - [ ] Paint and export a small test background PNG; import it into GB Studio.
 

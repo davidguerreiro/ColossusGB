@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "63b6f975-9ef3-4126-8f7a-e37561598fdc",
+  "_index": 0,
+  "name": "Escena 1",
+  "backgroundId": "8afd8036-5141-4236-ba20-aae257e6fbd4",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 176,
+  "y": 80,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
