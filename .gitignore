@@ -1,0 +1,8 @@
+GBGame/build/
+GBGame/cache/
+
+GBGame/*.bak
+GBGame/*.sav
+GBGame/*.icloud
+
+GBGame/user_settings.gbsres
