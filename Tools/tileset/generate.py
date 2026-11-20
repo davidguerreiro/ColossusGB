@@ -1,12 +1,12 @@
 """Render tiles in definition order and publish the checked PNG."""
 import os
 from pathlib import Path
-from tempfile import NamedTemporaryFile
 
 from PIL import Image
 
 from .analyze import Report
 from .definitions import PALETTE, SIZE, read_tiles
+from .png import staged_png
 from .validate import validate
 
 
@@ -18,11 +18,7 @@ def generate(definition: Path, output: Path, *, replace: bool = False) -> Report
     pixels = b"".join(PALETTE[int(shade)] for y in range(SIZE)
                       for tile in tiles for shade in tile[y])
     image = Image.frombytes("RGB", size, pixels)
-    output.parent.mkdir(parents=True, exist_ok=True)
-    with NamedTemporaryFile(dir=output.parent, delete=False) as temp:
-        pending = Path(temp.name)
-    try:
-        image.save(pending, format="PNG", compress_level=9)
+    with staged_png(image, output) as pending:
         report = validate(pending, size)
         if replace:
             os.replace(pending, output)
@@ -34,5 +30,3 @@ def generate(definition: Path, output: Path, *, replace: bool = False) -> Report
                 if pending.read_bytes() != output.read_bytes():
                     raise ValueError(f"{output} already exists. Choose a new name or pass --replace.")
         return report
-    finally:
-        pending.unlink(missing_ok=True)

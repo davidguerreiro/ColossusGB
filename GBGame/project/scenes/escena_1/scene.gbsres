@@ -3,7 +3,7 @@
   "id": "63b6f975-9ef3-4126-8f7a-e37561598fdc",
   "_index": 0,
   "name": "Escena 1",
-  "backgroundId": "8afd8036-5141-4236-ba20-aae257e6fbd4",
+  "backgroundId": "4b841807-9951-47d9-bdd0-ec12d1da7221",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "006+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!00d+0f3+00!0f3+00d5+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 176,
@@ -19,5 +19,11 @@
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "monoBGP": [
+    0,
+    1,
+    2,
+    3
+  ]
 }

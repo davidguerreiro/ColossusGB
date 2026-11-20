@@ -60,6 +60,8 @@ GB Scene Tiler (visual background editing)
            ↓
 Flattened background PNG
            ↓
+Exact DMG palette normalization and PNG validation
+           ↓
 GB Studio (actors, collisions, events, gameplay)
            ↓
 Game Boy ROM and emulator testing

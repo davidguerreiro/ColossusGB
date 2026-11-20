@@ -19,7 +19,7 @@ This repository currently focuses on the **Game Boy prototype** and its graphics
 
 ## Toolchain and ownership of each stage
 1. **ChatGPT / Codex CLI:** planning and code assistance; Codex works on local project files.
-2. **Python 3 + Pillow:** deterministic creation of small reusable tilesets, image validation, and tile-pattern analysis.
+2. **Python 3 + Pillow:** deterministic creation of small reusable tilesets, exact DMG palette normalization for exported backgrounds, image validation, and tile-pattern analysis.
 3. **GB Scene Tiler:** the user's chosen **visual background/level editor**. Import Python-generated tilesets, paint village/interior/outdoor scenes, and export finished background PNGs.
 4. **GB Studio:** import the background PNGs; place actors, collisions, triggers, interactions, dialogues, puzzles, and combat logic; compile a playable Game Boy ROM.
 5. **Git + VS Code:** version control and editing. Codex CLI is intended to authenticate using the user's ChatGPT subscription, subject to plan usage limits.

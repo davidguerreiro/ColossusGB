@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "97e1f369-43b9-4fd0-8477-c5d730a2e480",
+  "name": "colossus_dmg_palette_test_160x144",
+  "symbol": "bg_colossus_dmg_palette_tes",
+  "tileColors": "",
+  "filename": "colossus_dmg_palette_test_160x144.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

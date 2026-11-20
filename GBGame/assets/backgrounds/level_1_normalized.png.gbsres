@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4b841807-9951-47d9-bdd0-ec12d1da7221",
+  "name": "level_1_normalized",
+  "symbol": "bg_level_1_normalized",
+  "tileColors": "",
+  "filename": "level_1_normalized.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
